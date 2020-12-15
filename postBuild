@@ -1,1 +1,3 @@
-conda install nb_conda
+# conda install nb_conda
+pip install jupyter_contrib_nbextensions && jupyter contrib
+nbextension install
