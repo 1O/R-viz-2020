@@ -1,3 +1,2 @@
-# conda install nb_conda
-pip install jupyter_contrib_nbextensions && jupyter contrib nbextensions
-nbextensions install
+conda install -c conda-forge jupyter_contrib_nbextensions
+jupyter nbextension enable exercise2/master
